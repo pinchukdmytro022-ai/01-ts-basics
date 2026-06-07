@@ -1,4 +1,3 @@
-{
     interface Product {
         readonly id: number;
         title: string;
@@ -12,4 +11,3 @@
     };
 
     console.log(`Product: ${JSON.stringify(product)}`);
-}
